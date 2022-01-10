@@ -695,7 +695,7 @@ Note: Supermajority Vote
 
 ## CDS Approval Process
 <figure>
-	<img src="images/CDS_roe_R_A_1.svg" alt="Review & Approval">
+	<img src="images/CDSC-R_A-1" alt="Review & Approval">
 	<figcaption>Review & Approval</figcaption>
 </figure>
 
@@ -704,10 +704,6 @@ The goal for an SDO is to reach interoperability, therefore “forking” is not
 
 The Review & Approval process implies that all the contributions need to be accepted by the Working Group.
 
-<figure>
-	<img src="images/CDS_roe_R_A_2.svg" alt="CDS Approval Flow">
-	<figcaption>CDS Approval Flow</figcaption>
-</figure>
 
 ### Review & Approval Process
 * **Review period**:
@@ -734,7 +730,7 @@ The Review & Approval process implies that all the contributions need to be acce
 ### Work Packages
 
 <figure>
-	<img src="images/CDS-breakdown.svg" alt="CDS Work Units">
+	<img src="images/cds-breakdown.svg" alt="CDS Work Units">
 	<figcaption>CDS Work Units</figcaption>
 </figure>
 
@@ -769,7 +765,7 @@ Note: from CDS Scope & Governance
 4.7.  Voting of the Steering Committee and Strategy Committee.  In any vote or Approval before the Steering Committee or Strategy Committee the affirmative vote of at least 50% of the voting members of the Steering Committee or Strategy Committee. The voting members of the Steering Committee and Strategy Committee consist of one appointee from each General Member and each Strategic Member of the LF Energy Foundation of the Linux Foundation.
 ```
 <figure>
-	<img src="images/CDS_roe_life_cycle.svg" alt="Specifications Life Cycle">
+	<img src="images/CDSC-life-cycle.svg" alt="Specifications Life Cycle">
 	<figcaption>Specifications Life Cycle</figcaption>
 </figure>
 
@@ -834,14 +830,14 @@ In this section the diagram below depictures the development phases of technical
 </table>
 
 <figure>
-	<img src="images/CDS-dev-process.svg" alt="CDS Technical Specifications Development Phases">
+	<img src="images/CDSC-dev-process.svg" alt="CDS Technical Specifications Development Phases">
 	<figcaption>CDS Technical Specifications Development Phases</figcaption>
 </figure>
 
 ### GitHub Flows
 
 <figure>
-	<img src="images/CDS-git-flow.svg" alt="CDS GitHub Flow">
+	<img src="images/CDSC-Git-Flow.svg" alt="CDS GitHub Flow">
 	<figcaption>CDS GitHub Flow</figcaption>
 </figure>
 
@@ -876,7 +872,7 @@ Placeholder for a public GitHub flow
 #### GitHub Publication
 There are at least four different options to publish content using GitHub:
 <figure>
-	<img src="images/CDS_roe_private-vs-public.svg" alt="Private vs Public">
+	<img src="images/CDSC-publication.svg" alt="Private vs Public">
 	<figcaption>Private vs Public</figcaption>
 </figure>
 
@@ -913,7 +909,7 @@ There are at least four different options to publish content using GitHub:
 ### Semantic Versioning
 
 <figure>
-	<img src="images/CDS_roe_semantic_versioning.svg" alt="Semantic Versioning">
+	<img src="images/CDSC-semantic-versioning.svg" alt="Semantic Versioning">
 	<figcaption>Semantic Versioning</figcaption>
 </figure>
 

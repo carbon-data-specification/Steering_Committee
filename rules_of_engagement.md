@@ -695,7 +695,7 @@ Note: Supermajority Vote
 
 ## CDS Approval Process
 <figure>
-	<img src="images/CDSC-R_A-1" alt="Review & Approval">
+	<img src="images/CDSC-R_A-1.svg" alt="Review & Approval">
 	<figcaption>Review & Approval</figcaption>
 </figure>
 

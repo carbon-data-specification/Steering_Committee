@@ -38,7 +38,9 @@ The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL N
     </tr>	  
     <tr>
 	<td><strong>Maintainer</strong></td>
-	<td>A member of the Working Group or CDS  staff support that performs maintenance tasks on behalf of the Working Group or Organization.</td>
+	<td>CDS member that has been selected by the Working Group as a coordinator for the Working Group activies. </br> 
+  A Maintainer is the person (or persons) *responsible for the direction or movement* of a Carbon Data Specification Working Group. He/she/they are committed to improving, driving, and ensuring an outcome.</br>
+  A Maintainer doesn’t necessarily have to be someone who writes the data specification. It could be someone who’s done a lot of work evangelizing the Carbon Data Specification, or written documentation that made CDS more accessible to others. Regardless of what they do day-to-day, a Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.</td>
     </tr>
     <tr>
 	<td><strong>Member(s)</strong></td>
@@ -48,10 +50,6 @@ The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL N
 	<td><strong>Membership Application</strong></td>
 	<td>A legal document that provides legal information about rights and obligations of being a member company of CDS.</td>
     </tr>
-    <tr>
-	<td><strong>Chairs</strong></td>
-	<td>CDS member that has been selected by the Working Group as a coordinator for the Working Group activies.</td>
-    </tr>	  
     <tr>
 	<td><strong>Project Charter</strong></td>
 	<td>A legal document that describes the CDS Project.</td>
@@ -89,7 +87,7 @@ The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL N
 	<td>It is a group of expertes working together to achieve predefined objectives. The group formalize its objectives and goals in a formal document, the Working Group Charter.</td>
     </tr>
     <tr>
-	<td><strong>Working Group Chair</strong></td>
+	<td><strong>Working Group Maintainer</strong></td>
 	<td>A person selected by the Working Group which primary role is to facilitate consensus-building among the group members.</td>
     </tr>	  
     <tr>
@@ -234,48 +232,42 @@ Note:
 >
 > The CDS Steering Committee approves by up or down vote the final specifications. 
 >
->    Ensures alignment between working groups.
+> - Ensures alignment between working groups.
 >
->    Determines the allocation of resources (financial requests from LF Energy) will require a  Strategic Member sponsoring the request which goes to the LF Energy Governing Board.
+> - Determines the allocation of resources (financial requests from LF Energy) will require a  Strategic Member sponsoring the request which goes to the LF Energy Governing Board.
 >
 > Roles can be found on the next page
 
 
 #### Steering Committee
 Note:
-> A CDS SC (Steering Committee) is a group of General and Strategic members of LF Energy who have the required technical expertise, or know-how, to resolve rare disputes and ensure alignment or coordination between WGs and the goals/mission of the CDSC. It is the Steering Committee’s responsibility to advance the specification.
+> A CDS SC (Steering Committee) is a group of General and Strategic members of LF Energy who have the required technical expertise, or know-how, to resolve rare disputes and ensure alignment or coordination between WGs and the goals/mission of the CDSC. 
+> It is the Steering Committee’s responsibility to advance the specification.
 
-> CSDC is an autonomous group within the TAC structure ( similar to a TSC of a hosted project)
+> CSDC is an autonomous group within the TAC structure ( similar to a TSC of a hosted project).
+
 > It has the role of:
->   Coordinate activities and discussions between working groups.
->   Spin up and spin down working groups as appropriate.
->   Manage a release of the spec
+>
+> - Coordinate activities and discussions between working groups.
+>
+> - Spin up and spin down working groups as appropriate.
+>
+> - Manage a release of the spec
 
 The Project Charter describes the governance structure for the association.  
 
 * One of the more important duties of the Steering Committee is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
+
+1. The Steering Committee is comprised of a representative of the founding members of the CDSC and has a single primary member representing each company.
+2. Each Steering Committee meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
+3. Proper notice of the Steering Committee (SC) meeting is given to its representatives including an agenda with the topics to be voted by the SC having been prepared with a proper notice period, typically one week.
+4. A meeting of the Steering Committee makers presumably has a quorum.
+5. Motions are made and accepted by a vote of the designated Steering Committee members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
+6. The votes are taken only by the appointed representatives of the Steering Committee.
+7. Minutes of the meeting are taken to record the votes and their outcomes. 
  
-The Steering Committee has delegated its authority to approve the published works of the Working Groups to the Organization Team. 
-#### Organization Team
-
-The Organization Team should have a similarly clear structure when approving a Specification on behalf of the SC because they are acting as the SC would act in making these decisions. This structure need only be in place when acting on behalf of the SC although the rigor of the process is beneficial to the CDS as a whole when any decision that impacts the WGs (process changes, approvals of specifications, etc) are being made. 
-
-1. The OT-Decision team is comprised of  a representative of the founding members of the CDS and has a single primary member representing each company.
-2. Each OT-Decision meeting is called on a regular interval, although this interval can be ad-hoc as long as the proper notice is given.
-3. Proper notice of the OT-Decision meeting is given to its representatives including an agenda with the topics to be voted by the OT having been prepared with a proper notice period, typically one week.
-4. A meeting of the OT-Decision makers presumably has a quorum.
-5. Motions are made and accepted by a vote of the designated OT-Decision members. Members may debate the motion, make changes if thought fit, accept or reject the motion. It is an important principle that there is an opportunity for questions and clarifications of the motion in the process. 
-6. The votes are taken only by the appointed representatives of the OT-Decision team.
-7. Minutes of the meeting are taken to record the votes and their outcomes.
-
-None of this need alter the overall mission and process of the OT. 
-However, when decisions are made by the OT they should conform:
-* with the Decision mode rules which ensure all the members are notified in advance, 
-* the materials being decided are available for review prior to the decisions, 
-* a specifically designated decision maker makes the vote, and 
-* the decisions are recorded in the minutes and archived. 
- 
-Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.
+ Note:
+> Specifications, especially important specifications, are subject to challenges from others. Having a well understood, well documented, and neutral process for their creation and approval demonstrates consistency in process and makes the challenges much more complicated for those who might try to make mischief in the future.
 
 #### Communications Team 
 
@@ -289,7 +281,9 @@ Specifications, especially important specifications, are subject to challenges f
 
 #### Working Groups (WG)
 
-* Working Groups (WGs) are chartered by the SC to handle one or more Work Packages.
+* Working Groups (WGs) that are chartered by the Steering Committee to handle one or more Work Packages: 
+  * Customer Data Working Group, (CD) and
+  * Power Systems Data Working Group, (PSD)
 
 ### Membership Benefits
 
@@ -326,18 +320,18 @@ Specifications, especially important specifications, are subject to challenges f
         <td>No</td>
     </tr>
     <tr>
-        <td>Eligible for a Working Group Chair position</td>
+        <td>Eligible for a Working Group Maintainer position</td>
         <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
-        <td>Eligible for a Working Group Co-Chair position</td>
+        <td>Eligible for a Working Group Co-Maintainer position</td>
         <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td colspan="7"><strong>Participation</strong></td>
@@ -364,7 +358,7 @@ Specifications, especially important specifications, are subject to challenges f
         <td>No</td>
     </tr>
     <tr>
-        <td>Eligible to join the Organization Team</td>
+        <td>Eligible to join the Steering Committee</td>
         <td>Yes</td>
         <td>No</td>
         <td>No</td>
@@ -531,7 +525,6 @@ Specifications, especially important specifications, are subject to challenges f
 ## What to Expect from CDS Roles
 * [from Members](#from-members)
 * [from Editors](#from-editors)
-* [from Chairs | Officers](#from-wg-chairs-officers)
 * [from Maintainer(s)](#from-maintainers)
 
 ### From Members
@@ -541,39 +534,26 @@ Note:
 * Members MUST read the Project documentation (e.g.: contribution guidelines, readme, and release planning file) before attenting to submit an Issue or Pull Request
 * Members are not allowed to fork a project to build a feature that has been rejected by the Working Group
 
-Note: from CDS Scope & Governance
+*Note: from CDS Scope & Governance*
 ```
-1.3. Participants. “Participants” are those that have made Contributions to the Working Group subject to the Community Specification License.
+1.3. Participants. “Participants” are those that have made Contributions to the Working Group 
+subject to the Community Specification License.
 ```
 
 ### From Editors
 Note:
 > An Editor is a subset of Participants who have been given write access to the repository. They will advance the day-to-day evolution of the specification
 
-Note: from CDS Scope & Governance
-```
-1.2. Editor. “Editors” are responsible for ensuring that the contents of the document accurately reflect the decisions that have been made by the group, and that the specification adheres to formatting and content guidelines. Each Working Group will designate an Editor or Editors for that Working Group. A Working Group may select a new Editor or Editors upon Approval of the Working Group Participants.
-```
+*Note: from CDS Scope & Governance*
 
-### From WG Chairs Officers
-
-* In performing their tasks, officers SHALL maintain strict impartiality and act in the interest of the Organization.
-* Chairs MAY limit the amount of time allocated to a particular agenda item or discussion point.
-* Chairs SHALL, after a reasonable period of discussion time, use means to quickly reach a decision including (but not limited to):
-  * a statement of the Chair’s view of group consensus, which shall be accepted by the group if there are no objections.
-  * assignment of action items to progress the issue in a short a time period as possible.
-  * invite single or few objectors to no longer sustain their objections.
-  * informal voting.
-  * formal voting.
-* Chairs MAY require that new information be provided about an issue before earlier decisions can be reopened/revisited.
-* The work and progress of the group is appropriately communicated through regular status reports to the SC.
-* The chair MAY delegate tasks to the co-chair, including chairing the group as and when necessary.
+```
+1.2. Editor. “Editors” are responsible for ensuring that the contents of the document accurately reflect the decisions 
+that have been made by the group, and that the specification adheres to formatting and content guidelines. 
+Each Working Group will designate an Editor or Editors for that Working Group.
+A Working Group may select a new Editor or Editors upon Approval of the Working Group Participants.
+```
 
 ### From Maintainers
-> Note:
-> A Maintainer is the person (or persons) *responsible for the direction or movement* of a Carbon Data Specification Working Group. He/she/they are committed to improving, driving, and ensuring an outcome.
-
-> A Maintainer doesn’t necessarily have to be someone who writes the data specification. It could be someone who’s done a lot of work evangelizing the Carbon Data Specification, or written documentation that made CDS more accessible to others. Regardless of what they do day-to-day, a Maintainer is probably someone who feels responsibility over the direction of the project and is committed to improving it.
 
 Note: from CDS Scope & Governance
 ```
@@ -581,6 +561,17 @@ Note: from CDS Scope & Governance
 
 ```
 
+* In performing their tasks, Working Group Maintainers SHALL maintain strict impartiality and act in the interest of the Organization.
+* Maintainers MAY limit the amount of time allocated to a particular agenda item or discussion point.
+* Maintainers SHALL, after a reasonable period of discussion time, use means to quickly reach a decision including (but not limited to):
+  * a statement of the Maintainers’s view of group consensus, which shall be accepted by the group if there are no objections.
+  * assignment of action items to progress the issue in a short a time period as possible.
+  * invite single or few objectors to no longer sustain their objections.
+  * informal voting.
+  * formal voting.
+* Maintainers MAY require that new information be provided about an issue before earlier decisions can be reopened/revisited.
+* The work and progress of the group is appropriately communicated through regular status reports to the SC.
+* The Maintainer MAY delegate tasks to other Maintainers, including chairing the group as and when necessary.
 * The Maintainer MUST keep the project documentation up to date (e.g.: contributing, readme and release planning documents)
 * The Maintainer MUST apply "Review & Approval" process to contributions submitted by the Working Group members
 * The Maintainer SHOULD use GitHub "Labels" to indicate the type of “Review & Approval” assigned to each Pull Request
@@ -621,7 +612,7 @@ Inspired by American National Standards Institute’s (ANSI) Essential Requireme
 3.6. Written procedures. This governance document and other materials documenting the Community Specification development process shall be available to any interested person.
 ```
 
-As part of their responsibilities defined in [from WG Chairs Officers](#from-wg-chairs-officers), officers need to ensure efficient and effective decision-making. 
+As part of their responsibilities defined in [from WG Maintainers](#from-wg-maintainers), Maintaniers need to ensure efficient and effective decision-making:
 * The decision making process in WGs is intended to be as inclusive as possible. 
 * WGs shall attempt to use consensus to make decisions. 
 * If consensus cannot be reached, voting mechanisms MAY be used. 
@@ -631,7 +622,9 @@ As part of their responsibilities defined in [from WG Chairs Officers](#from-wg-
   * Items proposed for approval via the group mailing list (e.g. agreement a document revision).
   * Inclusion of a document for decision in an electronic Review, Comment and Approval event
   * Inclusion of a document for decision in an e-vote (Supermajority) vote.
+ 
  > The above list is not exhaustive.
+
 * There SHALL be no distinction in the decision-making merit of real-time or non-real-time meetings.
   * In real-time meetings, consensus can be determined by receiving no sustained objections to a proposal. 
   * In non-real-time meetings, consensus SHOULD be developed using Review, Comment and Agreement periods, e.g. using [Review and Approval](#CDS-approval-process)
@@ -642,7 +635,7 @@ As part of their responsibilities defined in [from WG Chairs Officers](#from-wg-
 * Groups shall endeavour to reach consensus on all decisions. 
 * Informal methods of reaching consensus are encouraged (e.g. a show of hands).
 * Groups SHOULD attempt to ensure contributions relating to the same subject matter are considered together before being disposed. 
-* However the chair SHALL ensure that progress is not delayed by unavailable contributions or participants.
+* However the Maintainer SHALL ensure that progress is not delayed by unavailable contributions or participants.
 * Agreement SHALL be sought in all forms of meeting.
 
 ### Handling objections when seeking consensus
@@ -653,7 +646,7 @@ As part of their responsibilities defined in [from WG Chairs Officers](#from-wg-
 * In real-time meetings, consensus can be determined by receiving no sustained objections to a proposal.
   * Efforts to immediately resolve or record objections can be taken to attempt to achieve consensus.
 * Where attendance is sparse when viewed from normal participation levels, potentially controversial proposals SHOULD be made available to the broader membership. 
-* The chair is responsible for ensuring such opportunity for participation in the decision making process. 
+* The Maintainer is responsible for ensuring such opportunity for participation in the decision making process. 
 * Sparsely attended meetings SHOULD NOT be used to drive through proposals that would not have broad support.
 * Following a decision-making meeting, a summary of decisions and document dispositions SHALL be published as soon as is practical. 
   * This will be addressed if the meeting minutes are available in a timely fashion.
@@ -665,7 +658,7 @@ As part of their responsibilities defined in [from WG Chairs Officers](#from-wg-
 
 ## Using Supermajority vote to achieve agreement 
 ### Phrasing of Voting Questions
-* The chair ensures that questions to be voted upon SHALL be phrased in a concise and unambiguous manner. 
+* The Maintainer ensures that questions to be voted upon SHALL be phrased in a concise and unambiguous manner. 
 * Questions SHOULD NOT be phrased as the “The group SHALL not do xyz”. Examples of appropriate questions are:
   * SHALL the group agree the Specification?
   * SHALL the liaison be approved?
@@ -673,7 +666,7 @@ As part of their responsibilities defined in [from WG Chairs Officers](#from-wg-
   * SHALL the existing Work Package be stopped?
   * If the issue is to choose between two options (i.e. A or B), an example of the appropriate question may be:
   * SHALL the group agree Option A or Option B?
-* The option receiving no less than 3/4 of the Supermajority Votes SHALL be the decision of the group.
+* The option receiving no less than **3/4** of the Supermajority Votes SHALL be the decision of the group.
 * If the issue is to choose between three or more options, the group SHOULD use informal voting to reduce the number of options to two, and then use formal voting, if necessary.
 
 ### Voting on Technical Issues
@@ -685,7 +678,7 @@ Note: Supermajority Vote
 ```
 
 
-*	Before voting, a clear definition of the issues SHALL be provided by the chair.
+*	Before voting, a clear definition of the issues SHALL be provided by the Maintainer.
 * Members eligible to vote, SHALL only be entitled to one vote each.
 * Each member MAY cast its vote as often as it wishes, and the last vote it casts counts.
 * Voting MAY be performed electronically.
@@ -704,8 +697,9 @@ Note: Supermajority Vote
 	<figcaption>Review & Approval</figcaption>
 </figure>
 
-In the Standards Development Organizations (SDOs) the approval or rejection of a contribution follows a democratic process; the majority. This differs from an Open Source organization that normally follows a meritocratic process where the Maintainer decides what to accept of reject. If a person doesn’t like the decision that her contribution is rejected, then she can “fork” the project. 
-The goal for an SDO is to reach interoperability, therefore “forking” is not the solution to a technical dispute. If there is a sustainable objection in a contribution the resolution is via a vote.
+In the Standards Development Organizations (SDOs) the approval or rejection of a contribution follows a democratic process; **the majority**. This differs from an Open Source organization that normally follows a meritocratic process where the Maintainer decides what to accept of reject. If a person doesn’t like the decision that her contribution is rejected, then she can “fork” the project.
+
+The goal for an SDO is to reach interoperability, therefore “forking” is not the solution to a technical dispute. If there is a sustainable objection in a contribution the resolution is via a vote, see [Seeking Consensus](#seeking-consensus).
 
 The Review & Approval process implies that all the contributions need to be accepted by the Working Group.
 
@@ -717,18 +711,18 @@ The Review & Approval process implies that all the contributions need to be acce
       * 0 days imply that the contribution is merged without Working Group review
 
 * **Comments or Objections**:
-    * During the Review & Approval process members MAY raise comments or objections.
-      * “Comments” MUST be taken in consideration by the Working Group, but they MAY be dismissed if they group thinks that are not relevant.
+    * During the Review & Approval process members MAY raise **comments** or **objections**.
+      * **Comments** MUST be taken in consideration by the Working Group, but they MAY be dismissed if they group thinks that are not relevant.
 
-      * “Objections” MUST be taken in consideration and they cannot be dismissed by the Working Group without being reviewed. 
-      * If a contribution receives an “objection” the group MUST resolve the issue, with the person that raise the objection, before deciding the status of the contribution. If the “objection” is sustained, meaning the person doesn’t remove it, then the group will have to recur to a vote to resolve it.
+      * **Objections** MUST be taken in consideration and they cannot be dismissed by the Working Group without being reviewed. 
+      * If a contribution receives an **objection** the group MUST resolve the issue, with the person that raise the objection, before deciding the status of the contribution. If the **objection** is sustained, meaning the person doesn’t remove it, then the group will have to recur to a [vote](#voting-on-technical-issues) to resolve it.
 
 * **Approval Criteria**:
-    * A contribution is considered “approved” and therefore it can be merged if:
-      * The contribution has not received any sustainable objection during the review period, AND
+    * A contribution is considered **approved** and therefore it can be merged if:
+      * The contribution has not received any sustainable **objection** during the review period, AND
       * At least 3 reviewers have indicated that they agree with the contribution
-    * If a sustained objection is received, the contribution cannot be merged, even if 3 or more contributors agreed with the contribution. 
-    * If during the review period a contribution receives a comment, it is up to the group or maintainer to accept the comment or not. In any case, in order to merge the contribution at least 3 reviewers MUST indicate that they agree with the contribution.
+    * If a sustained **objection** is received, the contribution cannot be merged, even if 3 or more contributors agreed with the contribution. 
+    * If during the review period a contribution receives a **comment**, it is up to the group or maintainer to accept the comment or not. In any case, in order to merge the contribution at least 3 reviewers MUST indicate that they agree with the contribution.
 
 ## CDS Process Flows
 
@@ -742,7 +736,7 @@ The Review & Approval process implies that all the contributions need to be acce
 
 #### Work Package
 * The Work Package (WP) SHALL describe the scope and expected deliverables and SHALL require WG approval
-* WIs are the means by which release packages (version x.y.z) are defined
+* WPs are the means by which release packages (version x.y.z) are defined
 
 ##### Epics
 * It could be a feature, customer request or business requirement
@@ -796,7 +790,7 @@ In this section the diagram below depictures the development phases of technical
       <td>A Technical Specification MAY be composed of one or more documents:
         <ul>
           <li><strong>Requirements Document</strong>, (RD)</li>
-            <ul><li>It contains the business requirements (not technical requiremnts). The busisness requirements are derived from the Use Cases described in the <strong>RD</strong> document.</li></ul>
+            <ul><li>It contains the business requirements (non technical requiremnts). The business requirements are derived from the Use Cases described in the <strong>RD</strong> document.</li></ul>
           <li><strong>Architecture Document</strong>, (AD)</li>
             <ul><li>Document that describes all functional elements of the system and its interfaces or reference points.</li></ul>
           <li><strong>Technical Specification Document(s)</strong>, (TS)</li>
@@ -805,7 +799,7 @@ In this section the diagram below depictures the development phases of technical
             <ul><li>Contains profile data, metadata, schemas, etc.</li></ul>
         </ul>
         <strong>Note:</strong> in some cases the group MAY agree to develop a single document that contains the above list as sections.
-        Each document will follow the phases described in this table:
+        Each document will follow the phases described in the above diagram.
       </td>
    </tr>
    <tr>
@@ -814,19 +808,19 @@ In this section the diagram below depictures the development phases of technical
    </tr>
       <tr>
 	    <td><strong>WG Approval</strong></td>
-	    <td>Once the WG completes the  <strong>Consistency Review</strong> the document(s) MUST be agreed by the WG (in a Review & Approval) before sending the document(s) to the Organization Team for formal <strong>Ratification</strong>.</td>
+	    <td>Once the WG completes the  <strong>Consistency Review</strong> the document(s) MUST be agreed by the WG (in a <strong>Review & Approval</strong>) before sending the document(s) to the Steering Committee for formal <strong>Ratification</strong>.</td>
    </tr>
    <tr>
 	    <td><strong>Ratification</strong></td>
-	    <td>Once the WG approves the document(s),  the document(s) are sent to the Organization Team for   <strong>Ratification</strong>.</td>
+	    <td>Once the WG approves the document(s), the document(s) are sent to the Steering Committee for   <strong>Ratification</strong>.</td>
    </tr>   
    <tr>
 	    <td><strong>Publication | Maintenance</strong></td>
-	    <td>Upon Steering Committee notification, the document(s) are ready for <strong>Publication</strong>.
+	    <td>Upon Steering Committee <strong>Ratification</strong>, the document(s) are ready for <strong>Publication</strong>.
       <ul>
-        <li>To publish the document(s), the Maintainer will merge the "agreement" branch into the "publication" branch. 
-        <li>A new <strong>Release Tag</strong> will be produce with the content in the "publication" branch and stored in the Release section of the GitHub repository.</li>
-        <li>The WG SHOULD open a "dialogue" with the public via <strong>GitHub Issues</strong>.</li>
+        <li>To publish the document(s), the Maintainer will create a new Release Tag.
+        <li>A new <strong>Release Tag</strong> will be produce with the content in the "main" branch and stored in the Release section of the GitHub repository.</li>
+        <li>The WG SHOULD open a *dialogue* with the public via <strong>GitHub Discussions</strong>.</li>
         <li>The input collected during the <strong>Maintenance</strong> phase SHOULD be used to improve the Technical Specifications as well as to collect business requirements for future releases.</li>
        </ul>
       </td>
@@ -897,10 +891,6 @@ There are at least four different options to publish content using GitHub:
    </tr>
     <tr>
       <td>Editors</td>
-      <td><i>WRITE</i> -  Can read, clone, and push to this repository. Can also manage issues and pull requests.</td>
-   </tr>
-   <tr>
-      <td>Chairs</td>
       <td><i>WRITE</i> -  Can read, clone, and push to this repository. Can also manage issues and pull requests.</td>
    </tr>
    <tr>
@@ -1030,7 +1020,7 @@ In addition, it is recommended to include a plain text statement of the license 
 #### License File in the Repository
 Insert in the repository a file called ```License.txt```. 
 
-The Maintainer or Chair can copy the corresponding license file from the [templates/license](https://github.com/OpenManufacturingPlatform/templates/tree/development/License) repository and upload it to the project repository.
+The Maintainer can copy the corresponding license file from the [templates/license]() repository and upload it to the project repository.
 
 
 #### License Reference in each Source Code File

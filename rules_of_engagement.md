@@ -837,7 +837,7 @@ In this section the diagram below depictures the development phases of technical
 It is suggested to follow the principles of [Trunk Based Development](https://trunkbaseddevelopment.com/) whenever is possible. 
 
 <figure>
-	<img src="images/CDSC-Git-Flow-2.svg" alt="CDS GitHub Flow">
+	<img src="images/CDSC-Git-Flow-2.svg" alt="CDS Git Flow">
 	<figcaption>CDS GitHub Flow</figcaption>
 </figure>
 
@@ -864,8 +864,8 @@ It is suggested to follow the principles of [Trunk Based Development](https://tr
 #### GitHub Publication
 There are at least three different options to publish content using GitHub:
 <figure>
-	<img src="images/CDSC-publication-2.svg" alt="Private vs Public">
-	<figcaption>Private vs Public</figcaption>
+	<img src="images/CDSC-publication-2.svg" alt="Publication">
+	<figcaption>Publication</figcaption>
 </figure>
 
 #### GitHub Access Rights

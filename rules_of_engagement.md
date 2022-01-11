@@ -172,7 +172,7 @@ Kindly consult [CDS Dictionary]() for more definitions used in this document.
       <td>Public website dedicated to CDS Consortium content.</td>
    </tr>
    <tr>
-      <td><a href="" target="_blank"><strong>GitHub</strong></a></td>
+      <td><a href="https://github.com/carbon-data-specification" target="_blank"><strong>GitHub</strong></a></td>
       <td>CDS GitHub repositories open to the public.</td>
    </tr>	  
    <tr>
@@ -186,7 +186,7 @@ Kindly consult [CDS Dictionary]() for more definitions used in this document.
    </tr>
    <tr>
       <td><strong>Meeting Calendar</strong></td>
-      <td> <a href="" target="_blank"><strong>Customer Data Working Group</strong></a>, <a href="" target="_blank"><strong>Power Systems Data Working Group</strong></a></td>
+      <td> <a href="" target="_blank"><strong>Customer Data Working Group, (CD)</strong></a>, and <a href="" target="_blank"><strong>Power Systems Data Working Group, (PSD) </strong></a></td>
    </tr>
    <tr>
       <td><strong>Mailing List</strong></td>
@@ -228,11 +228,16 @@ See [Membership Benefits](#membership-benefits)
 ![image](https://user-images.githubusercontent.com/3258579/148709731-a7b9e2fc-c26b-4fe1-b0a1-99860e7706a9.png)
 
 Note:
-> The technical Working Groups are open to all
-> The Strategy WG and the CDS Steering Committee are open to LF Energy General and Strategic members
-> The CDS Steering Committee approves by up or down vote the final specifications  
->    Ensures alignment between working groups
->    Determines the allocation of resources (financial requests from LF Energy) will require a  Strategic Member sponsoring the request which goes to the LF Energy Governing Board
+> The technical Working Groups are open to all.
+>
+> The Strategy WG and the CDS Steering Committee are open to LF Energy General and Strategic members.
+>
+> The CDS Steering Committee approves by up or down vote the final specifications. 
+>
+>    Ensures alignment between working groups.
+>
+>    Determines the allocation of resources (financial requests from LF Energy) will require a  Strategic Member sponsoring the request which goes to the LF Energy Governing Board.
+>
 > Roles can be found on the next page
 
 

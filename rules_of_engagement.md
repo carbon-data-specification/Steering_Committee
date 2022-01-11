@@ -834,13 +834,12 @@ In this section the diagram below depictures the development phases of technical
 </figure>
 
 ### GitHub Flows
+It is suggested to follow the principles of [Trunk Based Development](https://trunkbaseddevelopment.com/) whenever is possible. 
 
 <figure>
-	<img src="images/CDSC-Git-Flow.svg" alt="CDS GitHub Flow">
+	<img src="images/CDSC-Git-Flow-2.svg" alt="CDS GitHub Flow">
 	<figcaption>CDS GitHub Flow</figcaption>
 </figure>
-
-#### GitHub Public Repositories
 
 <table>
   <caption>GitHub Work Flow - Public Repositories</caption>
@@ -853,25 +852,19 @@ In this section the diagram below depictures the development phases of technical
   <tbody>
     <tr>
 	    <td><i>Rel vX.Y.Z</i></td>
-      <td>Release-tag's contain all the different versions of the Technical Specifications that have been approved by the Working Group and ratified by the Technical Steering Committee. The name of the release tag will follow Semantic versioning principles.</td>
+      <td>Release-tag's contain all the different versions of the Technical Specifications that have been approved by the Working Group and ratified by the Technical Steering Committee. The name of the release tag will follow [Semantic Versioning](#semantic-versioning) principles.</td>
    </tr>
     <tr>
 	    <td><i>main</i></td>
-      <td>This branch contains the latest version of the Technical Specfication approved by the Working Group, the Organization Team and ratified by the Technical Steering Committee. Its content will be moved into a release-tag, to perserve the content of the version.</td>
+      <td>This branch contains the latest version of the Technical Specfication approved by the Working Group. Its content will be moved into a release-tag, afer the <strong>Consistency Review</strong> and Technical Steering Committee <strong>Ratification</strong> phases.</td>
    </tr>
   </tbody>
 </table>
 
-```
-Note: group needs to decide if there will be "development" and "feature-branches" in the public repositories.
-```
-```
-Placeholder for a public GitHub flow
-```
 #### GitHub Publication
-There are at least four different options to publish content using GitHub:
+There are at least three different options to publish content using GitHub:
 <figure>
-	<img src="images/CDSC-publication.svg" alt="Private vs Public">
+	<img src="images/CDSC-publication-2.svg" alt="Private vs Public">
 	<figcaption>Private vs Public</figcaption>
 </figure>
 
@@ -922,7 +915,7 @@ There are at least four different options to publish content using GitHub:
     <td>X</td>
     <td><i>Major Version Indicator</i></td>
     <td>This mandatory field SHALL identify the major version of the document as determined by the WG.
-      Major versions contain major feature additions; MAYcontain incompatibilities with previous document or specification revisions; and MAY change, drop, or replace existing interfaces. Initial releases are “1_0”.
+      Major versions contain major feature additions; MAY contain incompatibilities with previous document or specification revisions; and MAY change, drop, or replace existing interfaces. Initial releases are “1_0”.
     </td>
   </tr>
   <tr>
@@ -990,32 +983,20 @@ Ideally, the project SHOULD communicate the software license information via thr
 * Inside of each code file created by the group
 
 #### Statement in README File
-Insert in the README file one of these statements (depending on the license type):
+Insert in the README file the MIT License:
 
 ```
 ![APM license](https://img.shields.io/badge/License-MIT-brightgreen)
 
-![APM license](https://img.shields.io/badge/License-Apache_2.0-brightgreen)
-
-![APM license](https://img.shields.io/badge/License-Mozilla_Public_License_2.0-brightgreen)
 ```
 
-The README file will display one of these three licenses:
+The README file will display:
 
 * ![APM license](https://img.shields.io/badge/License-MIT-brightgreen)
 
-* ![APM license](https://img.shields.io/badge/License-Apache_2.0-brightgreen)
-
-* ![APM license](https://img.shields.io/badge/License-Mozilla_Public_License_2.0-brightgreen)
-
-In addition, it is recommended to include a plain text statement of the license in the README file, for accessibility purposes as well as enabling parsing by automated tooling. This can be done by including a "License" section with one of the following, as appropriate:
+In addition, it is recommended to include a plain text statement of the license in the README file, for accessibility purposes as well as enabling parsing by automated tooling. This can be done by including a "License" section with:
 
 * This project is licensed under the MIT license.
-
-* This project is licensed under the Apache-2.0 license.
-
-* This project is licensed under the Mozilla Public License, version 2.0 (MPL-2.0).
-
 
 #### License File in the Repository
 Insert in the repository a file called ```License.txt```. 
@@ -1036,20 +1017,6 @@ Each source code created by the project SHOULD have one of these SPDX license id
 # Copyright Contributors to the Carbon Data Specifications Consortium
 ```
 
-* **for a Apache 2.0 license:**
-
-```
-# SPDX-License-Identifier: Apache-2.0
-# Copyright Contributors to the Carbon Data Specifications Consortium
-```
-
-* **for a Mozilla Public License 2.0 license:**
-
-```
-# SPDX-License-Identifier: MPL-2.0
-# Copyright Contributors to the Carbon Data Specifications Consortium
-```
-
 If the project needs to include source code or documents from a different upstream project, the recommendation is to retain those files in **unmodified form**  _**(don't add identifiers)**_.
 
 Also consider to:
@@ -1058,6 +1025,7 @@ Also consider to:
 * ask the upstream project to insert the identifiers on their source code files / documents.
 
 #### CDSC Software License Policy
+**Pending**
 
 ### Technical Document License
 In projects where the main deliverables are technical documents, each document MUST have a legal disclaimer.

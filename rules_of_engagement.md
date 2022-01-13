@@ -589,19 +589,24 @@ Note: from CDS Scope & Governance
 
 ## Meetings
 * WGs are encouraged to schedule regular conference calls.
-* The Meetings MUST be announced at least 7 days in advance.
+* The Meetings MUST be announced at least, 7 days in advance for conference calls, and 1 month for face to face meetings.
 * All the Organization members are contractually bound to the IPR policy under terms of the Membership Application and these IPR Guidelines must be followed.
-* Meetings SHALL have an IPR call where a reminder of the IPR policy and the duties and obligations of members is provided.
+* Meetings SHALL have an antitrust statement and an IPR call where a reminder of the IPR policy and the duties and obligations of members is provided.
 * A meeting attendee list MUST be produced for each meeting. This is necessary to determine which members can vote in a Supermajority vote.
 
 ## Technical Decision Making
 ### Decision Making
 
+```
+Note: the following bullet points needs to be reviewed by the group: 3.1, 3.1 and 3.2 
+This is to ensure that the fact of having memberships levels doesn't contradicts these rules
+```
+
 Note: from CDS Scope & Governance
 
 ```
 2. Decision Making.
-2.1. Consensus-Based Decision Making. Working Groups make decisions through a consensus process (“Approval” or “Approved”). While the agreement of all Participants is preferred, it is not required for consensus. Rather, the Maintainer will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Working Group Participants and nature of support and objections. The Maintainer will document evidence of consensus in accordance with these requirements.  Consensus will not be deemed to have been met in the event of a sustained objection from one or more Working Group participants.
+2.1. Consensus-Based Decision Making. Working Groups make decisions through a consensus process (“Approval” or “Approved”). While the agreement of all Participants is preferred, it is not required for consensus. Rather, the Maintainer will determine consensus based on their good faith consideration of a number of factors, including the dominant view of the Working Group Participants and nature of support and objections. The Maintainer will document evidence of consensus in accordance with these requirements. Consensus will not be deemed to have been met in the event of a sustained objection from one or more Working Group participants.
 
 2.2. Appeal Process. Decisions may be appealed via a pull request or an issue, and that appeal will be considered by the Maintainer in good faith, who will respond in writing within a reasonable time.
 
@@ -683,10 +688,8 @@ As part of their responsibilities defined in [from WG Maintainers](#from-wg-main
 Note: Supermajority Vote
 
 ```
-
+Define Supermajority
 ```
-
-
 *	Before voting, a clear definition of the issues SHALL be provided by the Maintainer.
 * Members eligible to vote, SHALL only be entitled to one vote each.
 * Each member MAY cast its vote as often as it wishes, and the last vote it casts counts.
@@ -870,14 +873,7 @@ It is suggested to follow the principles of [Trunk Based Development](https://tr
   </tbody>
 </table>
 
-#### GitHub Publication
-There are at least three different options to publish content using GitHub:
-<figure>
-	<img src="images/CDSC-publication-2.svg" alt="Publication">
-	<figcaption>Publication</figcaption>
-</figure>
-
-#### GitHub Access Rights
+### GitHub Access Rights
 <table>
   <caption>GitHub Access Rights</caption>
   <thead>
@@ -888,7 +884,7 @@ There are at least three different options to publish content using GitHub:
   </thead>
   <tbody>
     <tr>
-      <td>Members</td>
+      <td>Participants</td>
       <td><i>TRIAGE</i> - Can read and clone this repository. Can also manage issues and pull requests.</td>
    </tr>
     <tr>
@@ -901,6 +897,13 @@ There are at least three different options to publish content using GitHub:
    </tr>
   </tbody>
 </table>
+
+## Publication
+There are at least three different options to publish content using GitHub:
+<figure>
+	<img src="images/CDSC-publication-2.svg" alt="Publication">
+	<figcaption>Publication</figcaption>
+</figure>
 
 ## Documentation
 ### Semantic Versioning
@@ -943,7 +946,9 @@ There are at least three different options to publish content using GitHub:
   </tbody>
 </table>
 
-## Copyright
+## Intelectual Property Rights
+
+### Copyright
 This section provides a recommendation based on the best practice implemented by other projects.
 
 Most LF project communities do not require or recommend that every contributor include their copyright notice in contributed files.
@@ -968,7 +973,7 @@ This section provides a recommended format for easy of use, but it is not mandat
 >Note: You may consider to discuss with your legal department about whether they require you to include a copyright notice identifying the employer as the copyright holder in contributions. Many of LF members' legal departments have already approved the above 
 recommended pratice.
 
-### Reasons to Avoid Listing Copyright Holders
+#### Reasons to Avoid Listing Copyright Holders
 These are some of the reasons why CDS does not recommend trying to list every copyright holder for contributions to every file:
 
 * Copyright notices are not mandatory in order for the contributor to retain ownership of their copyright.
@@ -976,14 +981,14 @@ These are some of the reasons why CDS does not recommend trying to list every co
 * Trying to keep notices up to date, or to correct notices that have become inaccurate, increases the burden on editors and maintainers without tangible benefit.
 * Editors and maintainers often do not want to have to worry about e.g. whether a minor contribution (such as a type fix) means that a new copyright notice should be added.
 
-### Other Copyright Rules
+#### Other Copyright Rules
 * If your contribution contains content from a third party source who didn't contribute it themselves, then you should not add the notice above. 
 * You should not change or remove someone else's copyright notice unless they have expressly (in writting) permitted you to do so.
 
-## Licenses
+### Licenses
 This section provides a recommendation on how to communicate software or document licenses information in a project.
 
-### Software Code Licenses
+#### Software Code Licenses
 
 Ideally, the project SHOULD communicate the software license information via three different metods:
 
@@ -1032,9 +1037,6 @@ Also consider to:
 
 * keep these files in sync with the upstream project
 * ask the upstream project to insert the identifiers on their source code files / documents.
-
-#### CDSC Software License Policy
-**Pending**
 
 ### Technical Document License
 In projects where the main deliverables are technical documents, each document MUST have a legal disclaimer.

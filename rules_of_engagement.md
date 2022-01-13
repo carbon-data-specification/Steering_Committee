@@ -12,6 +12,12 @@ The default language for writting CDS documentation is the American English, Eng
 The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC2119].
 
 ### Definitions
+```
+Note: To Be Deleted
+
+Every term used in the document should be defined in this section.
+```
+
 
 <table>
   <caption>Definitions</caption>
@@ -49,6 +55,10 @@ The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL N
     <tr>
 	<td><strong>Membership Application</strong></td>
 	<td>A legal document that provides legal information about rights and obligations of being a member company of CDS.</td>
+    </tr>
+    <tr>
+	<td><strong>Participant</strong></td>
+	<td>A Participant is any individual creating content or commenting on an issue or pull request.</td>
     </tr>
     <tr>
 	<td><strong>Project Charter</strong></td>
@@ -153,7 +163,7 @@ Kindly consult [CDS Dictionary]() for more definitions used in this document.
 
 ## Introduction
 
-## CDS Tools - Processes - People
+## CDS Resources
 
 
 <table>
@@ -254,7 +264,6 @@ Note:
 >
 > - Manage a release of the spec
 
-The Project Charter describes the governance structure for the association.  
 
 * One of the more important duties of the Steering Committee is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
 
@@ -523,16 +532,16 @@ The Project Charter describes the governance structure for the association.
 </table>
 
 ## What to Expect from CDS Roles
-* [from Members](#from-members)
+* [from Members](#from-participants)
 * [from Editors](#from-editors)
 * [from Maintainer(s)](#from-maintainers)
 
-### From Members
+### From Participants
 Note:
 > A Participant is any individual creating content or commenting on an issue or pull request.
 
-* Members MUST read the Project documentation (e.g.: contribution guidelines, readme, and release planning file) before attenting to submit an Issue or Pull Request
-* Members are not allowed to fork a project to build a feature that has been rejected by the Working Group
+* Participants MUST read the Project documentation (e.g.: contribution guidelines, readme, and release planning file) before attenting to submit an Issue or Pull Request
+* Participants are not allowed to fork a project to build a feature that has been rejected by the Working Group
 
 *Note: from CDS Scope & Governance*
 ```

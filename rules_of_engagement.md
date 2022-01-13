@@ -264,7 +264,6 @@ Note:
 >
 > - Manage a release of the spec
 
-
 * One of the more important duties of the Steering Committee is the approval of the Specifications and other works produced as a consensus product of the Working Groups. 
 
 1. The Steering Committee is comprised of a representative of the founding members of the CDSC and has a single primary member representing each company.
@@ -290,11 +289,68 @@ Note:
 
 #### Working Groups (WG)
 
-* Working Groups (WGs) that are chartered by the Steering Committee to handle one or more Work Packages: 
+* Working Groups (WGs) that are chartered by the Steering Committee to handle one or more [Work Packages](#work-packages):
+
   * Customer Data Working Group, (CD) and
   * Power Systems Data Working Group, (PSD)
 
-### Membership Benefits
+## What to Expect from CDS Roles
+* [from Members](#from-participants)
+* [from Editors](#from-editors)
+* [from Maintainer(s)](#from-maintainers)
+
+### From Participants
+Note:
+> A Participant is any individual creating content or commenting on an issue or pull request.
+
+* Participants MUST read the Project documentation (e.g.: contribution guidelines, readme, and release planning file) before attenting to submit an Issue or Pull Request
+* Participants are not allowed to fork a project to build a feature that has been rejected by the Working Group
+
+*Note: from CDS Scope & Governance*
+```
+1.3. Participants. “Participants” are those that have made Contributions to the Working Group 
+subject to the Community Specification License.
+```
+
+### From Editors
+Note:
+> An Editor is a subset of Participants who have been given write access to the repository. They will advance the day-to-day evolution of the specification
+
+*Note: from CDS Scope & Governance*
+
+```
+1.2. Editor. “Editors” are responsible for ensuring that the contents of the document accurately reflect the decisions 
+that have been made by the group, and that the specification adheres to formatting and content guidelines. 
+Each Working Group will designate an Editor or Editors for that Working Group.
+A Working Group may select a new Editor or Editors upon Approval of the Working Group Participants.
+```
+
+### From Maintainers
+
+Note: from CDS Scope & Governance
+```
+1.1. Maintainer. “Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) developed by the Working Group. Maintainers are also responsible for determining consensus and coordinating appeals. Each Working Group will designate one or more Maintainer for that Working Group. A Working Group may select a new or additional Maintainer(s) upon Approval of the Working Group Participants.
+
+```
+
+* In performing their tasks, Working Group Maintainers SHALL maintain strict impartiality and act in the interest of the Organization.
+* Maintainers MAY limit the amount of time allocated to a particular agenda item or discussion point.
+* Maintainers SHALL, after a reasonable period of discussion time, use means to quickly reach a decision including (but not limited to):
+  * a statement of the Maintainers’s view of group consensus, which shall be accepted by the group if there are no objections.
+  * assignment of action items to progress the issue in a short a time period as possible.
+  * invite single or few objectors to no longer sustain their objections.
+  * informal voting.
+  * formal voting.
+* Maintainers MAY require that new information be provided about an issue before earlier decisions can be reopened/revisited.
+* The work and progress of the group is appropriately communicated through regular status reports to the SC.
+* The Maintainer MAY delegate tasks to other Maintainers, including chairing the group as and when necessary.
+* The Maintainer MUST keep the project documentation up to date (e.g.: contributing, readme and release planning documents)
+* The Maintainer MUST apply "Review & Approval" process to contributions submitted by the Working Group members
+* The Maintainer SHOULD use GitHub "Labels" to indicate the type of “Review & Approval” assigned to each Pull Request
+* The Maintainer SHOULD keep communications with the members via GitHub Issues or Pull Requests rather than one to one communications
+* The Maintainer SHOULD close contributions that do not follow the rules, or meet the right quality or are related to features that are in the scope of the Release Version under development
+
+## Membership Benefits
 
 <table>
   <caption>Membership Benefits</caption>
@@ -530,62 +586,6 @@ Note:
     </tr>
   </tbody>
 </table>
-
-## What to Expect from CDS Roles
-* [from Members](#from-participants)
-* [from Editors](#from-editors)
-* [from Maintainer(s)](#from-maintainers)
-
-### From Participants
-Note:
-> A Participant is any individual creating content or commenting on an issue or pull request.
-
-* Participants MUST read the Project documentation (e.g.: contribution guidelines, readme, and release planning file) before attenting to submit an Issue or Pull Request
-* Participants are not allowed to fork a project to build a feature that has been rejected by the Working Group
-
-*Note: from CDS Scope & Governance*
-```
-1.3. Participants. “Participants” are those that have made Contributions to the Working Group 
-subject to the Community Specification License.
-```
-
-### From Editors
-Note:
-> An Editor is a subset of Participants who have been given write access to the repository. They will advance the day-to-day evolution of the specification
-
-*Note: from CDS Scope & Governance*
-
-```
-1.2. Editor. “Editors” are responsible for ensuring that the contents of the document accurately reflect the decisions 
-that have been made by the group, and that the specification adheres to formatting and content guidelines. 
-Each Working Group will designate an Editor or Editors for that Working Group.
-A Working Group may select a new Editor or Editors upon Approval of the Working Group Participants.
-```
-
-### From Maintainers
-
-Note: from CDS Scope & Governance
-```
-1.1. Maintainer. “Maintainers” are responsible for organizing activities around developing, maintaining, and updating the specification(s) developed by the Working Group. Maintainers are also responsible for determining consensus and coordinating appeals. Each Working Group will designate one or more Maintainer for that Working Group. A Working Group may select a new or additional Maintainer(s) upon Approval of the Working Group Participants.
-
-```
-
-* In performing their tasks, Working Group Maintainers SHALL maintain strict impartiality and act in the interest of the Organization.
-* Maintainers MAY limit the amount of time allocated to a particular agenda item or discussion point.
-* Maintainers SHALL, after a reasonable period of discussion time, use means to quickly reach a decision including (but not limited to):
-  * a statement of the Maintainers’s view of group consensus, which shall be accepted by the group if there are no objections.
-  * assignment of action items to progress the issue in a short a time period as possible.
-  * invite single or few objectors to no longer sustain their objections.
-  * informal voting.
-  * formal voting.
-* Maintainers MAY require that new information be provided about an issue before earlier decisions can be reopened/revisited.
-* The work and progress of the group is appropriately communicated through regular status reports to the SC.
-* The Maintainer MAY delegate tasks to other Maintainers, including chairing the group as and when necessary.
-* The Maintainer MUST keep the project documentation up to date (e.g.: contributing, readme and release planning documents)
-* The Maintainer MUST apply "Review & Approval" process to contributions submitted by the Working Group members
-* The Maintainer SHOULD use GitHub "Labels" to indicate the type of “Review & Approval” assigned to each Pull Request
-* The Maintainer SHOULD keep communications with the members via GitHub Issues or Pull Requests rather than one to one communications
-* The Maintainer SHOULD close contributions that do not follow the rules, or meet the right quality or are related to features that are in the scope of the Release Version under development
 
 ## Meetings
 * WGs are encouraged to schedule regular conference calls.
